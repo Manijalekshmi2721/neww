@@ -1,6 +1,8 @@
 
 body{
      font-family: 'Playfair Display', serif;
+     position: relative;
+     min-height: 100vh;
      }
 
 
@@ -23,9 +25,13 @@ body{
 
 
  .my_footer{
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
             background-color:#f8f9fa;
             height:60px;
-            }
+        }
 
 
 .my_footer p{
